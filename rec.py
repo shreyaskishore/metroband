@@ -33,10 +33,7 @@ def main(argv):
 	api_instance = artikcloud.MessagesApi()
 
 	# parameters for our request
-	sdids = config['deviceId'] # str | Comma separated list of source device IDs (minimum: 1). (required)
-	#count = 10 # int | Number of items to return per query. (optional)
-	#field_presence = None # str | String representing a field from the specified device ID. (optional)
-
+	sdids = config['deviceId']
 	try:
 		 # Debug Print oauth settings
 	    pprint(artikcloud.configuration.auth_settings())
