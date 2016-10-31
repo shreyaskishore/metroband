@@ -33,9 +33,6 @@ def main(argv):
 
 	# Device_message - data that is sent to your device
 	device_message = {}
-
-	# We send random values to the 'temp' field for this FireSensor.
-	# Let's send a random value between 0 and 200 for this demo.
 	device_message['train1'] = random.randrange(0,200);
 
 	# Set the 'device id' - value from your config.json file
